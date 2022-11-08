@@ -10,6 +10,9 @@ html {
 
 body{background-image: linear-gradient(to bottom, rgb(63, 242, 141), skyblue)}
 
+nav{position: sticky;
+top:0px;
+height: 100%;}
 .navbar ul{
   list-style-type: none;
   display:flex;
@@ -18,9 +21,12 @@ body{background-image: linear-gradient(to bottom, rgb(63, 242, 141), skyblue)}
   margin:0;
        justify-content: space-between;
        align-items: center;
+
+
        }
 .navbar i:hover{cursor:pointer;}
 .navbar{border-bottom: solid purple 1px;
+
         }
 
 
